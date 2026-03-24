@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "zrt.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "PlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "CameraFreecamMixin",
+    "MouseMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

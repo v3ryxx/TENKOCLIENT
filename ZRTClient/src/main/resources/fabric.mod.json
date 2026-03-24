@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zrtclient",
+  "version": "1.0.0",
+  "name": "ZRT Client",
+  "description": "ZRT Client - Minecraft 1.21.4",
+  "authors": ["ZRT"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["zrt.client.ZRTClient"]
+  },
+  "mixins": ["zrtclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
